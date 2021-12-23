@@ -1,37 +1,23 @@
-title: # a name for your Learning Lab course
-description: # a longer description for your Learning Lab course, displayed on the course's landing page
+# Follow this guide for more details https://lab.github.com/docs/learning-paths
 
-# Repository setup
-# The following section template information for the repository
-# This will be used when the repository is crated for each individual learner
-
-template:
-  name: # the name of the repository when it is created for the learner
-  repo: # the name of the template repository from which to clone for the learner
-
-# `before` block
-# Actions to take place after the learner registers, but before they start interacting with their repo
-
-before:
-- type: # the type of action, full list at https://lab.github.com/docs/actions/
-  # some actions require additional options, those should appear below `type:`
-  # you can execute multiple actions in the `before` block
-
-# Steps for the course
-# A list of steps that take the learner through the course
-# Create one step for each action that a learner will complete
+title: My Learning Path # a name for your Learning Lab path
+description: A couple of great learning resources! # a longer description for your Learning Lab path, displayed on the course's landing page
 
 steps:
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-  event: # a list of the actions that will occur when the step is triggered by an event
-  actions:
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
-  # some actions require additional options, those should appear below `type:`
-  # you can execute multiple actions in the `before` block
-  #
-  # - type:
-  #   option:
-  #
-  # - type:
-  #   option:
+  # Point to a course on Learning Lab owned by the same user or organization as this Learning Path
+  - course: introduction-to-github
+
+  # Point to an external link,
+  - link: https://opensource.guide/starting-a-project/#writing-a-readme
+    title: The ingredients of a great README 
+    description: >-
+      Great READMEs help users understand your project, why it matters and what they can do with it.
+      This guide shares some helpful tips to write great READMEs.
+
+  # Embed a video
+  - link: https://www.youtube.com/watch?v=w3jLJU7DT5E
+    video: https://youtube.com/embed/w3jLJU7DT5E
+    title: What is GitHub?
+    description: >-
+      Hey, it's your first time here, so let's not take any chances.
+      Check out this short video to understand why people use GitHub.
