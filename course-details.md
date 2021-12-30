@@ -1,5 +1,7 @@
 _The full description of your course. This is what learners will use to decide whether or not they should take your course._
 
+> Read more about this file in the [GitHub Lab Docs](https://lab.github.com/docs/content-for-the-catalog)
+
 # Course description
 
 Start with a short paragraph describing what you'll teach. Be sure to include information on how the course is relevant to the learner. This paragraph should answer the question, "Why should I take this course?"
