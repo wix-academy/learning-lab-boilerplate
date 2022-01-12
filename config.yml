@@ -4,8 +4,8 @@ title: My Learning Path # a name for your Learning Lab path
 description: A couple of great learning resources! # a longer description for your Learning Lab path, displayed on the course's landing page
 
 steps:
-  # Point to a course on Learning Lab owned by the same user or organization as this Learning Path
-  - course: introduction-to-github
+  # Point to a course/path on Learning Lab owned by the same user or organization as this Learning Path
+  - course: githubtraining/introduction-to-github
 
   # Point to an external link,
   - link: https://opensource.guide/starting-a-project/#writing-a-readme
